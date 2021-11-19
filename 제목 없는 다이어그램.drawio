@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T07:29:33.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="SbgxbSEvpfsMPqx8LS5d" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T03:28:47.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="yzw-gF6nxe4nV15ANQlT" version="15.5.2" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1185" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2000" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="5" target="8">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="5" target="8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="전자식 댐퍼 시스템 제어부 [라즈베리파이]&#xa;PBL 6조" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC" parent="1" vertex="1">
+        <mxCell id="5" value="전자식 댐퍼 시스템 제어부 [아두이노]&#xa;PBL 6조" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC" parent="1" vertex="1">
           <mxGeometry x="239.99999999999991" y="370" width="400" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.488;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=9;" edge="1" parent="1" source="6" target="5">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.488;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=9;" parent="1" source="6" target="5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-decoration: underline ; text-align: center&quot;&gt;&lt;strong&gt;센싱부&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;모터의 스텝 값을&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;실시간으로 전송&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
           <mxGeometry x="30" y="100" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="0BRsgU6Nk2iyZQjAAnr7-97">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8" target="0BRsgU6Nk2iyZQjAAnr7-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="180" as="sourcePoint" />
             <Array as="points">
@@ -32,66 +32,66 @@
         <mxCell id="62" value="5V 출력" style="text;spacingTop=-5;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="454.5000000000001" y="440" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-97" target="6">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-97" target="6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-97" value="스텝 모터&#xa;(103H5210-0457)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-97" value="스텝 모터&#xa;(103H5210-0457)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="200" y="260" width="89" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-99" target="0BRsgU6Nk2iyZQjAAnr7-97">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-99" target="0BRsgU6Nk2iyZQjAAnr7-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-99" value="12V - 24V&#xa;컨버터" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-99" value="12V - 24V&#xa;컨버터" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="100" y="430" width="89" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;exitX=0.008;exitY=0.342;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-100" target="0BRsgU6Nk2iyZQjAAnr7-101">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;exitX=0.008;exitY=0.342;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-100" target="0BRsgU6Nk2iyZQjAAnr7-101" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="640" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-100" target="0BRsgU6Nk2iyZQjAAnr7-114">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-100" target="0BRsgU6Nk2iyZQjAAnr7-114" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-100" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-decoration: underline ; text-align: center&quot;&gt;전원부&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;킥보드의 12V&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;출력을 이용,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;OR 파워뱅크 사용&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-100" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-decoration: underline ; text-align: center&quot;&gt;전원부&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;킥보드의 12V&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;출력을 이용,&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;OR 파워뱅크 사용&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" parent="1" vertex="1">
           <mxGeometry x="385" y="570" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-101" target="0BRsgU6Nk2iyZQjAAnr7-99">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-101" target="0BRsgU6Nk2iyZQjAAnr7-99" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-101" value="킥보드 DC 출력&#xa;파워뱅크 출력" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-101" value="킥보드 DC 출력&#xa;파워뱅크 출력" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="100" y="540" width="89" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-106" target="6">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-106" target="6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-106" value="초기 정렬용&#xa;푸쉬 버튼" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-106" value="초기 정렬용&#xa;푸쉬 버튼" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="170" y="70" width="89" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-110" target="0BRsgU6Nk2iyZQjAAnr7-97">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-110" target="0BRsgU6Nk2iyZQjAAnr7-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-110" value="외력&#xa;(포트홀, 방지턱 등)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-110" value="외력&#xa;(포트홀, 방지턱 등)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="324" y="311" width="89" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-114" target="5">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-114" target="5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-114" value="12V - 5V&#xa;컨버터" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-114" value="12V - 5V&#xa;컨버터" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="395.5" y="490" width="89" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.844;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=9;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-120" target="6">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.844;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=9;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-120" target="6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-120" value="킥보드 컨트롤러" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-120" value="킥보드 컨트롤러" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="510" y="40" width="89" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-122" value="속도값, 브레이크 여부, 스로틀 값 전송" style="text;spacingTop=-5;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-122" value="속도값, 브레이크 여부, 스로틀 값 전송" style="text;spacingTop=-5;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="385.0000000000001" y="40" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-125" target="8">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-125" target="8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=9;" edge="1" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-125" target="0BRsgU6Nk2iyZQjAAnr7-100">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="0BRsgU6Nk2iyZQjAAnr7-125" target="0BRsgU6Nk2iyZQjAAnr7-100" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="755" y="480" />
@@ -100,28 +100,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-125" value="기능 on/off&#xa;토글버튼" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-125" value="기능 on/off&#xa;토글버튼" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="710" y="375" width="89" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-133" value="24V 출력" style="text;spacingTop=-5;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-133" value="24V 출력" style="text;spacingTop=-5;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="180.0000000000001" y="385" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-134" value="n초 이상 누를 경우,&#xa;해당 조향 값을 0°로 설정" style="text;spacingTop=-5;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-134" value="n초 이상 누를 경우,&#xa;해당 조향 값을 0°로 설정" style="text;spacingTop=-5;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="129.5000000000001" y="20" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-136" value="현재 스텝 값 전송" style="text;spacingTop=-5;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-136" value="현재 스텝 값 전송" style="text;spacingTop=-5;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="120.00000000000011" y="260" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-137" value="계산 값 (목표 값) 전송" style="text;spacingTop=-5;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-137" value="계산 값 (목표 값) 전송" style="text;spacingTop=-5;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="569.0000000000001" y="210" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-138" value="핸들 털림 발생" style="text;spacingTop=-5;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-138" value="핸들 털림 발생" style="text;spacingTop=-5;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="265.0000000000001" y="331" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-139" value="12V ~ 80V" style="text;spacingTop=-5;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-139" value="12V ~ 80V" style="text;spacingTop=-5;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="110.00000000000011" y="490" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-141" value="On, OFF" style="text;spacingTop=-5;align=center;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BRsgU6Nk2iyZQjAAnr7-141" value="On, OFF" style="text;spacingTop=-5;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="620.0000000000001" y="480" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
